@@ -193,7 +193,7 @@ def main():
 
 		if lost:
 			lost_label = lost_font.render("You Lost!!", 1, (255, 255, 255))
-			WIN.blit(lost_label, (WIDTH/2 - lost_label.get_width()/2, 350))
+			WIN.blit(lost_label, (WIDTH/2 - lost_label.get_width()/2, 450))
 
 		pygame.display.update() # Refreshes display
 
